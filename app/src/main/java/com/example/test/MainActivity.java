@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                     NumberFormat nf = NumberFormat.getInstance();
                     nf.setMaximumFractionDigits(2);
                     fresult = fw/fh;
-                    result.setText(nf.format(fresult) +"");
+                    result.setText("結果:"+nf.format(fresult) +"");
                     TextView dia = (TextView)findViewById(R.id.tv4);
 
 
